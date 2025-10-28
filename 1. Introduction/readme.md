@@ -29,3 +29,6 @@ A vulnerability is a defect in the target system. This defect may be a bug in ap
 
 ### Exploit
 An exploit is a way to take advantage of a known vulnerability. The usual objective is to take control over the asset. (Social engineering, commonly considered a simple scam, is one kind of exploit.)
+
+### The risk
+> One cannot build a perfect defence system against all threats. The question is what amount of risk is acceptable given the cost of mitigating the threats. If more effort is put into protection, there will be less risk to tolerate. The risk can be minimized but not removed completely!
