@@ -6,7 +6,9 @@
 - TCP connection is between two agents: a server is waiting for a connection while the client initates the connection. Here the server could be a web server while the client is the web browser.
 - TCP has a state: upon connection a client and a server undergo a handshake protocol where several packets are sent back and forth making sure that both parties are on the same page. Integrity of the data stream is maintained by counters on both sides, and sending an acknowledgment packet every time a data packet arrives. If the sender does not receive acknowledgment reply for a data packet within a certain amount of time, he will resubmit the packet.
 - TCP also introduces a concept of a port: each connection has two ports, one for both sides. A port is an integer between 0 and 65535. A server typically waits for a new connection at a well-known port. Default ports for widely-used protocols are well-established and are typically small numbers, for example, HTTP uses port 80. A client also needs its own port. These ports are typically large numbers selected automatically by an operating system, based on what ports are available.
-- 
+- TCP provides a reliable data stream connection between two devices. The drawback of the protocol is significant overhead, especially due to the acknowledgment packets. This latency is not acceptable in certain real-time applications, for example, online gaming. An alternative protocol for TCP is User Datagram Protocol (UDP), a simple protocol providing ports and a(n optional) checksum as additional services, and nothing else.
+
+
 
 
 
