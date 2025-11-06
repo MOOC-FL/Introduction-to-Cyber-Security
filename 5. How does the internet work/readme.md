@@ -10,3 +10,9 @@
 - On the other extreme, the protocols in the application layer establish common language between two applications sharing information, for example, the HTTP protocol describes how a web browser should request information from a web server.
 - Note that the upper layers do not care how the lower layers are implemented as long as certain services are provided by the lower layers: HTTP does not care whether the connection is over wireless, RJ-45 cable, or a smartphone, or a combination of many. Similarly, the lower layers do not care (at least in theory) about the payload of the application layer.
 > Our primary interest for now is the internet layer and the transport layer.
+
+> How many layers are needed ?
+
+> Grouping protocols in 4 layers is often referred as TCP/IP model (named after the two most important protocols) or internet protocol suite. Often the link layer is split in 2 layers, physical link, and data link, leading to 5 layers instead of 4.
+> We can also use Open Systems Interconnection model (OSI model) which has 7 layers.
+
