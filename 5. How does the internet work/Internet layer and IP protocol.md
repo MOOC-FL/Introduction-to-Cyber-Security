@@ -3,7 +3,4 @@
 - The protocol establishes several fundamental things.
 - First, and most important, each device in the network is given an IP address. In IPv4 the address consists of 4 bytes (numbers ranging between 0—255). Partly due to bad management, IP addresses using only 4 bytes are (almost) run out, so a new protocol IPv6 was introduced that uses 32 bytes as address. Both protocols are used but IPv4 is still the dominant protocol as of 2020.
 
-
-Structure of the IPv4 header. Several key fields are highlighed.svg
-
-![Description](Structure of the IPv4 header. Several key fields are highlighed.svg)
+![Alt text](https://example.com/image.jpg)
