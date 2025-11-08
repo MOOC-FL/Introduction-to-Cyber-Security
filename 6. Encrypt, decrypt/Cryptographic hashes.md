@@ -1,0 +1,6 @@
+### Cryptographic hashes
+- Modern computer systems rarely store passwords as clear text. Otherwise, if the file containing the passwords is compromised, the attacker obtains a list of plain-text passwords for that particular system—a significant security breach. Instead passwords are stored as hashes. They are scrambled with a known hash function. The key difference here is that a hash cannot be decrypted. When user tries to log in to the system, the stored password is not decrypted. Instead the user input is hashed and hashes are compared.
+
+- Since hashes are deterministic, same password will always have the same hash. This leads to a possibility that an attacker can build a large library of reversed hashes by simply precomputing them. To fight against this attack, passwords are typically salted: a random string, unique to each user, is attached to a password before it is hashed. The salt is stored in plain-text, so that it can be used when a password verification is required.
+
+- Currently, the most prominent hash function family is SHA-2. A notable hash function, MD5, has also been used for hashing sensitive data. However it has been severely compromised, and should not be used for any security application. MD5 is still useful, for example, as providing unique identifier for documents.
